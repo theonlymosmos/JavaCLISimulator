@@ -88,3 +88,32 @@ docs
 assets
 backup_assets
 file_list.txt
+
+
+## 📚 Command Reference
+
+| Command | Arguments | Description |
+| :--- | :--- | :--- |
+| `pwd` | None | Prints the absolute path of the current working directory. |
+| `cd` | `[path]` or `..` | Changes the directory. Supports relative paths, absolute paths, and `..` for parent directory. |
+| `ls` | None | Lists all files and directories in the current folder. |
+| `mkdir` | `[dir1] [dir2]...` | Creates one or multiple new directories. |
+| `rmdir` | `[dir]` or `*` | Removes an empty directory. Use `*` to attempt removing **all** empty subdirectories in the current folder. |
+| `touch` | `[file]` | Creates a new, empty file. |
+| `cp` | `[-r] [source] [dest]` | Copies a file. Add the `-r` flag as the first argument to recursively copy a directory. |
+| `rm` | `[file]` | Deletes a specific file. |
+| `cat` | `[file]` | Reads and prints the content of a file to the terminal. |
+| `wc` | `[file]` | "Word Count": Displays the number of lines, words, and characters in a file. |
+| `zip` | `[name.zip] [file/dir]` | Compresses a file or directory recursively into a new zip archive. |
+| `unzip` | `[name.zip]` | Extracts the contents of a zip archive into the current directory. |
+| `exit` | None | Terminates the CLI session and closes the program. |
+
+## 👥 Contributors
+
+This project was collaboratively designed, developed, and tested by our engineering team:
+
+* **Mousa Mohamed Mousa**
+* **Omar Mohamed Farag**
+* **Mohab Amr**
+* **Mariel Robert John**
+* **Malak Amr**
