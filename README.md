@@ -11,6 +11,11 @@ This application mimics the behavior of a Linux/Unix terminal (or Windows Comman
 
 The architecture strictly separates concerns between input parsing and command execution, ensuring a modular and extensible codebase.
 
+This project was developed as part of the **Operating Systems** subject coursework during the term 2025-2026. It serves as a practical implementation of core OS concepts, including:
+* Shell interface design and command parsing.
+* Hierarchical file system manipulation using JAVA.
+* Input/Output stream redirection and process management.
+
 ## ✨ Key Features
 
 ### 📂 File System Management
@@ -74,7 +79,7 @@ This project was collaboratively designed, developed, and tested by our engineer
 * **Mohab Amr**
 * **Mariel Robert John**
 * **Malak Amr**
-*
+
 
 ### Running the Application
 
